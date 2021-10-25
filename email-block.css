@@ -1,0 +1,41 @@
+section.Email-block div.Email-block-container{
+    margin: 0 auto;
+    width: 1200px;
+    background: #000;
+    height: 380px;
+    margin-top: 30px;
+  }
+  section.Email-block div.Email-block-block{
+    padding-top: 60px;
+  }
+  section.Email-block div.Email-block-block > h1{
+    color: white;
+    text-align: center;
+    font-size: 36px;
+  }
+  section.Email-block div.Email-block-container div.Email-block-block-emailblcok{
+    color: white;
+    background: #C4C4C4;
+    width: 426px;
+    text-align: center;
+    height: 55px;
+    margin:0 auto;
+    position: relative;
+  }
+  section.Email-block div.Email-block-container div.Email-block-block-emailblcok > input{
+    font-size: 20px;
+    border: 0;
+    background: #C4C4C4;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+  }
+  section.Email-block div.Email-block-container div.Email-block-block-emailblcok > input::placeholder{
+    color: white;
+  }
+  section.Email-block div.Email-block-container div.Email-block-block-emailblcok > button{
+    position: absolute;
+    padding: 5px;
+    top: 13px;
+    right: 40px;
+  }

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rain or Sun</title>
+
+    <!-- own css -->
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="email-block.css">
+    <link rel="stylesheet" href="home-style.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="./home.html"><img src="./img/carson-realty.png" alt="" class="logo_img" /></a>
+
+      <nav class="nav">
+        <ul class="nav_list">
+          <li>
+            <a style="background-color: black; color: white;" href="./home.html">Home</a>
+          </li>
+          <li>
+            <a href="./umbrella.html">Umbrella</a>
+          </li>
+          <li>
+            <a href="./sunglass.html">Sunglass</a>
+          </li>
+          <li>
+            <a href="./shop.html">Shop</a>
+          </li>
+          <li>
+            <a href="./location.html">Location</a>
+          </li>
+          <li>
+            <a href="./aboutus.html">AboutUS</a>
+          </li>
+          <li>
+            <a href="./contact.html">Contact</a>
+          </li>
+
+          <!-- 下拉選單 -->
+          <!-- <li>
+                <div class="social_block">
+                  社群連結
+                  <ul class="social_link_list">
+                    <li>
+                      <a href="#">FB</a>
+                    </li>
+                    <li>
+                      <a href="#">Twitter</a>
+                    </li>
+                  </ul>
+                </div>
+              </li> -->
+        </ul>
+      </nav>
+
+      <!-- <a href="#"><i class="fas fa-search" style="float: right; font-size: 18px; width: 100px;">hi</i></a> -->
+
+      <!-- icon -->
+      <!-- 問問題1: icon標籤要獨立放，還是把兩個icon放到div裡 -->
+      <!-- 問問題2: 每個區塊是一個section 一個section標籤 下來嗎-->
+      <!-- 問問題3: banner 是滿版嗎，還是1200px-->
+      <!-- 問問題4: 怎麼定義Figma上面每個區塊，應該是什麼HTML標籤 -->
+      <!-- 問問題5: fas fa-angle-double-down 這邊，應該要用css讓他變block排列往下排列，還是直接包個div在外層-->
+
+      <div class="icon-block">
+        <a href="#"><i class="fas fa-search"></i></a>
+        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+      </div>
+    </header>
+
+    <section class="section1">
+      <div class="banner">
+        <div class="container1">
+          <img src="./img/banner-umbrella.png" alt="" />
+          <p>Every day is a good day</p>
+          <img src="./img/banner-sunglass.png" alt="" />
+        </div>
+
+        <div class="container2">
+          <h1>Rain or Sun</h1>
+          <a href="./shop.html"><button>Shop</button></a>
+          <div><i class="fas fa-angle-double-down"></i></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <div class="parent_container">
+      <aside class="aside">
+        aside
+        <br />
+        aside
+        <br />
+        aside
+        <br />
+        aside
+        <br />
+        aside
+        <br />
+      </aside>
+
+      <main class="main">
+        main
+        <br />
+        main
+        <br />
+        main
+        <br />
+        main
+        <br />
+        main
+        <br />
+        main
+        <br />
+        main
+        <br />
+        main
+        <br />
+        main
+        <br />
+      </main>
+    </div> -->
+
+    <section class="section2">
+      <div class="section2-container">
+        <div class="section2-block1">
+          <p>How's the weather</p>
+          <h1>Today</h1>
+          <i class="fas fa-cloud-rain fa-4x"></i>
+        </div>
+        <div class="section2-block2">
+          <img src="./img/ScreenShot-2021-10-19.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section3">
+      <div class="section3-block">
+        <div class="bg1">
+          <p>Rain</p>
+          <div class="shop-now">
+            <a href="./umbrella.html"><p>Shop now</p></a>
+            <a href="./umbrella.html"><i class="fas fa-angle-right"></i></a>
+          </div>
+          <a href="#"><img src="./img/umbrellapng.png" alt="" /></a>
+        </div>
+        <div class="bg2">
+          <p>Sun</p>
+          <div class="shop-now">
+            <a href="./sunglass.html"><p>Shop now</p></a>
+            <a href="./sunglass.html"><i class="fas fa-angle-right"></i></a>
+          </div>
+          <a href=""><img src="./img/sunglasses.png" alt="" /></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section4">
+      <div class="section4-container">
+        <h1>New Realeases</h1>
+        <div class="section4-block1">
+          <img src="./img/umbrella-gray.png" alt="" />
+          <img src="./img/umbrella-blue.png" alt="" />
+          <img src="./img/umbrella-purple.png" alt="" />
+          <img src="./img/umbrella-red.png" alt="" />
+        </div>
+        <p>Product name</p>
+        <p>$199 NTD</p>
+      </div>
+    </section>
+
+    <section class="section5">
+      <div class="section5-container">
+        <h1>Top Product</h1>
+        <div class="section5-block1">
+          <img src="./img/umbrella-gray.png" alt="" />
+          <img src="./img/umbrella-blue.png" alt="" />
+          <img src="./img/umbrella-purple.png" alt="" />
+          <img src="./img/umbrella-red.png" alt="" />
+        </div>
+        <p>Product name</p>
+        <p>$199 NTD</p>
+      </div>
+    </section>
+
+    <section class="Email-block">
+      <div class="Email-block-container">
+        <div class="Email-block-block">
+          <h1>
+            Remind you
+            <br />
+            before getting wet
+          </h1>
+        </div>
+        <div class="Email-block-block-emailblcok">
+          <input type="text" placeholder="Enter your email" />
+          <button type="button">Subscribe</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section7">
+      <div class="section7-container">
+        <h1>Beautiful Day</h1>
+        <div class="section7-img-block">
+          <img src="./img/pexels-michele-raffoni-9065316.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-block1">
+        <div class="footer-block1-samllblock1">
+          <p>Account</p>
+          <a href="#">Sign in</a><br>
+          <a href="#">Register</a>
+        </div>
+        <div class="footer-block1-samllblock2">
+          <p>About</p>
+          <a href="#">Sign in</a><br>
+          <a href="#">Register</a>
+        </div>
+        <div class="footer-block1-samllblock3">
+          <p>Help</p>
+          <a href="#">Sign in</a><br>
+          <a href="#">Register</a>
+        </div>
+        <div class="footer-block1-samllblock4">
+          <p>Privacy</p>
+          <a href="#">Sign in</a><br>
+          <a href="#">Register</a>
+        </div>
+      </div>
+      <div class="footer-block2">
+        <p>FOLLOW US</p>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+      <div class="footer-block3">&copy Rain or Sun Inc. All Rights Reseverd</div>
+    </footer>
+  </body>
+</html>

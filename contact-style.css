@@ -1,0 +1,94 @@
+section.section1 div.section1-title {
+  margin: 0 auto;
+  width: 1200px;
+  margin-top: 50px;
+}
+section.section1 div.section1-title > h1 {
+  font-size: 36px;
+}
+section.section1 div.section1-container {
+  margin: 0 auto;
+  width: 1200px;
+  /* background: #000; */
+  /* height: 100px; */
+}
+section.section1 div.section1-container div.section1-water-bady-block {
+  text-align: center;
+  margin-top: 100px;
+}
+section.section1 div.section1-container div.section1-water-bady-block > p {
+  font-size: 30px;
+}
+section.section1 div.section1-container div.section1-water-bady-block > img {
+  width: 300px;
+  filter: grayscale(100%);
+}
+
+section.section2 div.section2-container {
+  margin: 0 auto;
+  width: 1200px;
+  /* background: gray;
+  height: 100px; */
+}
+section.section2 div.section2-container div.section2-form-block {
+}
+section.section2 div.section2-container div.section2-form-block-name {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+section.section2 div.section2-container div.section2-form-block-name > label {
+  font-size: 36px;
+}
+section.section2 div.section2-container div.section2-form-block-name label > input {
+  width: 300px;
+  padding: 15px;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+section.section2 div.section2-container div.section2-form-block-name label > input[type="text"] {
+  font-size: 24px;
+}
+
+section.section2 div.section2-container div.section2-form-block div.section2-form-block-mail {
+  margin-left: 180px;
+  margin-top: 50px;
+}
+section.section2 div.section2-container div.section2-form-block div.section2-form-block-mail > label {
+  font-size: 36px;
+}
+
+section.section2 div.section2-container div.section2-form-block div.section2-form-block-mail label > input {
+  width: 300px;
+  padding: 15px;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+section.section2 div.section2-container div.section2-form-block div.section2-form-block-mail label > input[type="text"] {
+  font-size: 24px;
+}
+
+section.section2 div.section2-container div.section2-form-block div.section2-form-block-help {
+  margin-left: 180px;
+  margin-top: 50px;
+}
+section.section2 div.section2-container div.section2-form-block div.section2-form-block-help > p{
+    font-size: 28px;
+
+}
+section.section2 div.section2-container div.section2-form-block div.section2-form-block-help > textarea{
+    font-size: 28px;
+    border-radius: 5px;
+}
+section.section2 div.section2-container div.section2-form-block div.section2-form-block-help div.section2-form-block-btn{
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 180px;
+}
+section.section2 div.section2-container div.section2-form-block div.section2-form-block-help div.section2-form-block-btn > button{
+    font-size: 24px;
+    background: #000;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+}

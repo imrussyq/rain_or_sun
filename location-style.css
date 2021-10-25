@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+section.section1 div.section1-container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+
+
+/* 要解決icon文字對齊問題 */
+section.section1 div.section1-container div.section1-icon-block {
+    
+}
+
+section.section1 div.section1-container div.section1-icon-block > p {
+    /* font-size: 30px; */
+}
+
+section.section1 div.section1-container div.section1-icon-block-p{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+
+section.section1 div.section1-container div.section1-icon-block p > i {
+    /* vertical-align: middle; */
+    
+  /* font-size: 30px;
+  width: 30px;
+  height: 30px;
+  padding: 5px; */
+  /* font-size: 30px;
+    line-height: 50px; */
+  /* width: 20px;
+    height: 20px; */
+  /* line-height: 5px; */
+}
+

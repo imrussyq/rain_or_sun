@@ -1,0 +1,157 @@
+section.section1 > h1 {
+  margin: 0 auto;
+  width: 1200px;
+}
+section.section1 div.section1-container {
+  /* border: 1px solid red; */
+  width: 1200px;
+  margin: 0 auto;
+  background: #dbdbdb;
+  position: relative;
+  overflow: hidden;
+}
+
+section.section1 div.section1-container div.section1-block1 {
+  color: white;
+  opacity: 0.9;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+section.section1 div.section1-container div.section1-block1 > h1 {
+  color: black;
+  font-size: 64px;
+}
+
+section.section1 div.section1-container div.section1-img-block {
+  position: absolute;
+  top: 100px;
+  right: -120px;
+  z-index: 1;
+}
+section.section1 div.section1-container div.section1-img-block > img {
+  filter: invert(100%);
+}
+section.section2 div.section2-container {
+  width: 1200px;
+  margin: 0 auto;
+  background: #f6f4f4;
+  height: auto;
+}
+section.section2 div.section2-container > p {
+  font-size: 36px;
+  padding: 50px;
+}
+
+section.section3 div.section3-container div.section3-block {
+  background: #000;
+  position: relative;
+}
+section.section3 div.section3-container div.section3-block > h1 {
+  font-size: 128px;
+  color: white;
+  text-align: center;
+}
+
+section.section3 div.section3-container div.section3-block div.section3-the-brand {
+  position: absolute;
+  /* background: #000; */
+  top: -100px;
+  left: 120px;
+}
+
+section.section3 div.section3-container div.section3-block div.section3-the-brand > h1 {
+  color: black;
+  text-shadow: white 3px 0em 0em;
+  font-size: 64px;
+}
+section.section3 div.section3-container div.section3-block div.section3-was-founded-in {
+  color: white;
+  text-shadow: black 3px 1em 3em;
+  position: absolute;
+  /* background: #000; */
+  bottom: -100px;
+  right: 30px;
+}
+section.section3 div.section3-container div.section3-block div.section3-was-founded-in > h1 {
+  font-size: 64px;
+}
+
+div.section3-container div.section3-p {
+  display: flex;
+  justify-content: center;
+}
+div.section3-container div.section3-p > p {
+  font-size: 36px;
+}
+section.section3 div.section3-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+section.section4 div.section4-container {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+section.section4 div.section4-container > h1 {
+  font-size: 64px;
+  margin-top: 100px;
+}
+
+section.section4 div.section4-container div.section4-sunglass-block {
+  position: relative;
+  overflow: hidden;
+}
+section.section4 div.section4-container div.section4-sunglass-block div.russ-block {
+  position: absolute;
+  top: 70px;
+  left: 220px;
+  width: 280px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+section.section4 div.section4-container div.section4-sunglass-block div.sayaka-block {
+  position: absolute;
+  top: 70px;
+  right: 210px;
+  width: 280px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+section.section4 div.section4-container div.section4-sunglass-block div.russ-block > img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* 裁切圖片上半部 */
+  /* margin-top: -110px;  */
+  
+}
+
+section.section4 div.section4-container div.section4-sunglass-block div.sayaka-block > img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+section.section4 div.section4-container div.section4-sunglass-block div.russ-block > h3 {
+  font-size: 36px;
+  color: white;
+}
+section.section4 div.section4-container div.section4-sunglass-block div.sayaka-block > h3 {
+  font-size: 36px;
+  color: white;
+}
+
+section.section4 div.section4-container div.section4-sunglass-block div.section4-p{
+    font-size: 64px;
+    margin: 0px 200px 0px;
+}
