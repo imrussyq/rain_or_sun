@@ -8,7 +8,7 @@
 
 var oReq = new XMLHttpRequest();
 // oReq.addEventListener("load", reqListener);
-oReq.open("GET", "../js/weather.json", true);
+oReq.open("GET", "./js/weather.json", true);
 
 oReq.onload = function () {
   let jsonResponse = JSON.parse(oReq.responseText);
@@ -30,7 +30,7 @@ oReq.onload = function () {
   }
 
   let weather_temp = document.getElementById("weather_temp");
-  weather_temp.innerText = temp.toFixed(0);
+  weather_temp.innerText = '°'+temp.toFixed(0);
 
 };
 oReq.send();
