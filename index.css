@@ -181,7 +181,6 @@ section.section3 div.section3-block div.shop-now > a {
   text-decoration: none;
 }
 
-
 /* section4 */
 section.section4 div.section4-container {
   margin: 0 auto;
@@ -204,7 +203,6 @@ section.section4 div.section4-container > p {
   line-height: 0.625rem;
   margin-left: 1.875rem;
 }
-
 
 /* section5 */
 section.section5 div.section5-container {
@@ -251,16 +249,66 @@ section.section7 div.section7-container div.section7-img-block > img {
 }
 
 /* xs - Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { ... }
+@media (max-width: 575.98px) {
+  /* section2 */
+  section.section2 div.section2-container {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    /* justify-content: space-around;
+    align-items: flex-start; */
+  }
+  section.section2 div.section2-container div.section2-block1 {
+    width: 34.375rem;
+    height: auto;
+    color: white;
+    font-size: 2.25rem;
+    background: white;
+    text-align: center;
+    margin-top: 6.25rem;
+  }
+  section.section2 div.section2-container div.section2-block2 {
+    width: 34.375rem;
+    height: auto;
+    color: white;
+    font-size: 2.25rem;
+    margin-top: 3.125rem;
+    margin-bottom: 1rem;
+    border: 1px solid red;
+  }
+  section.section2 div.section2-container div.section2-block2 > img{
+    width: 100%;
+  }
+  section.section2 div.section2-container div.section2-block1 > p {
+    font-size: 2.25rem;
+    color: #c4c4c4;
+  }
+  section.section2 div.section2-container div.section2-block1 > h1 {
+    font-size: 3rem;
+    color: black;
+    line-height: 0.0625rem;
+  }
+  section.section2 div.section2-container div.section2-block1 > i {
+    color: black;
+  }
+}
 
 /* sm - Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
+@media (min-width: 576px) and (max-width: 767.98px) {
+  ...;
+}
 
 /* md - Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  ...;
+}
 
 /* lg - Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  ...;
+}
 
 /* xl - Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {
+  ...;
+}
