@@ -7,9 +7,11 @@ body {
 }
 
 /* ========================  section ========================  */
+
+/* section1 */
 section.section1 div.banner {
   margin: 0 auto;
-  width: 1200px;
+  max-width: 1200px;
   /* height: auto; */
   border: 1px solid #f6f4f4;
   background-color: #f6f4f4;
@@ -18,39 +20,40 @@ section.section1 div.banner div.container1 {
   /* border: 1px solid black; */
 
   /* 用flex區塊置中 */
-  margin-top: 80px;
+  margin-top: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  line-height: 200px;
+  line-height: 12.5rem;
 }
 section.section1 div.banner div.container1 > img {
-  width: 200px;
-  height: 200px;
+  width: 12.5rem;
+  height: 12.5rem;
 }
 section.section1 div.banner div.container1 > p {
   /* border: 1px solid red; */
-  margin: 0 80px;
-  font-size: 20px;
+  margin: 0 5rem;
+  font-size: 1.25rem;
   color: #949494;
 }
 section.section1 div.banner div.container2 {
   /* border: 1px solid yellow; */
-  height: 120px;
-  width: 1200px;
+  height: 7.5rem;
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
 }
 section.section1 div.banner div.container2 > h1 {
   /* border: 1px solid red; */
-  font-size: 28px;
-  margin-bottom: 3px;
+  font-size: 1.75rem;
+  margin-bottom: 0.1875rem;
 }
 section.section1 div.banner div.container2 a > button {
   margin-top: 0;
-  width: 100px;
-  padding: 5px;
-  font-size: 28px;
+  width: 6.25rem;
+  padding: 0.3125rem;
+  font-size: 1.75rem;
   background: #000;
   color: white;
   border: none;
@@ -84,44 +87,49 @@ section.section1 div.banner div.container2 > div {
   font-size: 30px;
 }
 
+/* section2 */
 section.section2 div.section2-container {
-  width: 1200px;
+  /* width: 1200px; */
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
 }
 section.section2 div.section2-container div.section2-block1 {
-  width: 550px;
-  height: 500px;
+  width: 34.375rem;
+  height: 31.25rem;
   color: white;
-  font-size: 36px;
+  font-size: 2.25rem;
   background: white;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 6.25rem;
 }
 section.section2 div.section2-container div.section2-block2 {
-  width: 550px;
-  height: 500px;
+  width: 34.375rem;
+  height: 31.25rem;
   color: white;
-  font-size: 36px;
-  margin-top: 50px;
+  font-size: 2.25rem;
+  margin-top: 3.125rem;
 }
 section.section2 div.section2-container div.section2-block1 > p {
-  font-size: 36px;
+  font-size: 2.25rem;
   color: #c4c4c4;
 }
 section.section2 div.section2-container div.section2-block1 > h1 {
-  font-size: 48px;
+  font-size: 3rem;
   color: black;
-  line-height: 1px;
+  line-height: 0.0625rem;
 }
 section.section2 div.section2-container div.section2-block1 > i {
   color: black;
 }
 
+/* section3 */
 section.section3 div.section3-block {
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
@@ -129,41 +137,41 @@ section.section3 div.section3-block {
 }
 section.section3 div.section3-block div.bg1 {
   background: #000;
-  width: 550px;
-  height: 500px;
+  width: 34.375rem;
+  height: 31.25rem;
   color: white;
-  font-size: 36px;
+  font-size: 2.25rem;
   position: relative;
 }
 section.section3 div.section3-block div.bg2 {
   background: #000;
-  width: 550px;
-  height: 500px;
+  width: 34.375rem;
+  height: 31.25rem;
   color: white;
-  font-size: 36px;
+  font-size: 2.25rem;
   position: relative;
 }
 section.section3 div.section3-block div.bg1 > a > img {
-  width: 400px;
+  width: 25rem;
   position: absolute;
-  top: 100px;
-  bottom: 80px;
-  left: 80px;
+  top: 6.25rem;
+  bottom: 5rem;
+  left: 5rem;
 }
 section.section3 div.section3-block div.bg2 > a > img {
-  width: 400px;
+  width: 25rem;
   position: absolute;
-  top: 160px;
-  bottom: 80px;
-  left: 80px;
+  top: 10rem;
+  bottom: 5rem;
+  left: 5rem;
 }
 section.section3 div.section3-block div.bg1 > p,
 section.section3 div.section3-block div.bg2 > p {
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 section.section3 div.section3-block div.shop-now {
-  margin-left: 20px;
-  margin-top: 300px;
+  margin-left: 1.25rem;
+  margin-top: 18.75rem;
 }
 section.section3 div.section3-block div.shop-now > p,
 section.section3 div.section3-block div.shop-now > a {
@@ -173,63 +181,86 @@ section.section3 div.section3-block div.shop-now > a {
   text-decoration: none;
 }
 
+
+/* section4 */
 section.section4 div.section4-container {
   margin: 0 auto;
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
 }
 section.section4 div.section4-container > h1 {
-  margin-top: 50px;
-  font-size: 48px;
-  margin-left: 30px;
+  margin-top: 3.125rem;
+  font-size: 3rem;
+  margin-left: 1.875rem;
 }
 section.section4 div.section4-container div.section4-block1 > img {
-  width: 250px;
-  height: 230px;
-  padding: 5px;
-  margin-left: 30px;
+  width: 15.625rem;
+  height: 14.375rem;
+  padding: 0.3125rem;
+  margin-left: 1.875rem;
 }
 section.section4 div.section4-container > p {
-  font-size: 28px;
-  line-height: 10px;
-  margin-left: 30px;
+  font-size: 1.75rem;
+  line-height: 0.625rem;
+  margin-left: 1.875rem;
 }
 
+
+/* section5 */
 section.section5 div.section5-container {
   margin: 0 auto;
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
 }
 section.section5 div.section5-container > h1 {
-  margin-top: 50px;
-  font-size: 48px;
-  margin-left: 30px;
+  margin-top: 3.125rem;
+  font-size: 3rem;
+  margin-left: 1.875rem;
 }
 section.section5 div.section5-container div.section5-block1 > img {
-  width: 250px;
-  height: 230px;
-  padding: 5px;
-  margin-left: 30px;
+  width: 15.625rem;
+  height: 14.375rem;
+  padding: 0.3125rem;
+  margin-left: 1.875rem;
 }
 section.section5 div.section5-container > p {
-  font-size: 28px;
-  line-height: 10px;
-  margin-left: 30px;
+  font-size: 1.75rem;
+  line-height: 0.625rem;
+  margin-left: 1.875rem;
 }
 
+/* section7 */
 /* section.section7 div.section7 */
 section.section7 div.section7-container {
   margin: 0 auto;
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
 }
 section.section7 div.section7-container > h1 {
-  font-size: 48px;
+  font-size: 3rem;
   color: black;
   text-align: center;
 }
 section.section7 div.section7-container div.section7-img-block {
-  height: 300px;
+  height: 18.75rem;
   height: 100%;
 }
 section.section7 div.section7-container div.section7-img-block > img {
   max-width: 100%;
   max-height: 100%;
 }
+
+/* xs - Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { ... }
+
+/* sm - Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+/* md - Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+/* lg - Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/* xl - Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }

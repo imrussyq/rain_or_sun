@@ -26,7 +26,6 @@ oReq.onload = function () {
       break;
     case "rain":
       weather_status.innerHTML = '<i class="fas fa-cloud-rain fa-4x"></i>';
-
       break;
     default:
       weather_status.innerHTML = "no";

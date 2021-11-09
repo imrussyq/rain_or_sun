@@ -1,41 +1,42 @@
 section.Email-block div.Email-block-container{
     margin: 0 auto;
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     background: #000;
-    height: 380px;
-    margin-top: 30px;
+    height: 23.75rem;
+    margin-top: 1.875rem;
   }
   section.Email-block div.Email-block-block{
-    padding-top: 60px;
+    padding-top: 3.75rem;
   }
   section.Email-block div.Email-block-block > h1{
     color: white;
     text-align: center;
-    font-size: 36px;
+    font-size: 2.25rem;
   }
   section.Email-block div.Email-block-container div.Email-block-block-emailblcok{
     color: white;
     background: #C4C4C4;
-    width: 426px;
+    width: 26.625rem;
     text-align: center;
-    height: 55px;
+    height: 3.4375rem;
     margin:0 auto;
     position: relative;
   }
   section.Email-block div.Email-block-container div.Email-block-block-emailblcok > input{
-    font-size: 20px;
+    font-size: 1.25rem;
     border: 0;
     background: #C4C4C4;
     position: absolute;
-    top: 15px;
-    left: 10px;
+    top: 0.9375rem;
+    left: 0.625rem;
   }
   section.Email-block div.Email-block-container div.Email-block-block-emailblcok > input::placeholder{
     color: white;
   }
   section.Email-block div.Email-block-container div.Email-block-block-emailblcok > button{
     position: absolute;
-    padding: 5px;
-    top: 13px;
-    right: 40px;
+    padding: 0.3125rem;
+    top: 0.8125rem;
+    right: 2.5rem;
   }
