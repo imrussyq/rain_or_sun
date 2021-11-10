@@ -395,7 +395,7 @@ section.section7 div.section7-container div.section7-img-block > img {
   section.section2 div.section2-container {
     /* width: 1200px; */
     width: 100%;
-    max-width: 720px;
+    max-width: 540px;
     margin: 0 auto;
     display: block;
   }
@@ -664,6 +664,44 @@ section.section7 div.section7-container div.section7-img-block > img {
 
 /* lg - Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  /* section2 */
+  section.section2 div.section2-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  section.section2 div.section2-container div.section2-block1 {
+    width: 34.375rem;
+    height: 31.25rem;
+    color: white;
+    font-size: 2.25rem;
+    background: white;
+    text-align: center;
+    margin-top: 6.25rem;
+  }
+  section.section2 div.section2-container div.section2-block2 {
+    width: 34.375rem;
+    height: 31.25rem;
+    color: white;
+    font-size: 2.25rem;
+    margin-top: 3.125rem;
+  }
+  section.section2 div.section2-container div.section2-block1 > p {
+    font-size: 2.25rem;
+    color: #c4c4c4;
+  }
+  section.section2 div.section2-container div.section2-block1 > h1 {
+    font-size: 3rem;
+    color: black;
+    line-height: 0.0625rem;
+  }
+  section.section2 div.section2-container div.section2-block1 > i {
+    color: black;
+  }
+
   /* section3 */
   section.section3 div.section3-block {
     width: 100%;
