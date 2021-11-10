@@ -1,42 +1,71 @@
-section.Email-block div.Email-block-container{
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 100%;
-    background: #000;
-    height: 23.75rem;
-    margin-top: 1.875rem;
-  }
-  section.Email-block div.Email-block-block{
-    padding-top: 3.75rem;
-  }
-  section.Email-block div.Email-block-block > h1{
+section.Email-block div.Email-block-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  background: #000;
+  height: 23.75rem;
+  margin-top: 1.875rem;
+}
+section.Email-block div.Email-block-block {
+  padding-top: 3.75rem;
+}
+section.Email-block div.Email-block-block > h1 {
+  color: white;
+  text-align: center;
+  font-size: 2.25rem;
+}
+section.Email-block div.Email-block-container div.Email-block-block-emailblcok {
+  color: white;
+  background: #c4c4c4;
+  width: 26.625rem;
+  text-align: center;
+  height: 3.4375rem;
+  margin: 0 auto;
+  position: relative;
+}
+section.Email-block div.Email-block-container div.Email-block-block-emailblcok > input {
+  font-size: 1.25rem;
+  border: 0;
+  background: #c4c4c4;
+  position: absolute;
+  top: 0.9375rem;
+  left: 0.625rem;
+}
+section.Email-block div.Email-block-container div.Email-block-block-emailblcok > input::placeholder {
+  color: white;
+}
+section.Email-block div.Email-block-container div.Email-block-block-emailblcok > button {
+  position: absolute;
+  padding: 0.3125rem;
+  top: 0.8125rem;
+  right: 2.5rem;
+}
+
+/* xs - Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  section.Email-block div.Email-block-container div.Email-block-block-emailblcok {
     color: white;
-    text-align: center;
-    font-size: 2.25rem;
-  }
-  section.Email-block div.Email-block-container div.Email-block-block-emailblcok{
-    color: white;
-    background: #C4C4C4;
-    width: 26.625rem;
+    background: #c4c4c4;
+    width: 23rem;
     text-align: center;
     height: 3.4375rem;
-    margin:0 auto;
+    margin: 0 auto;
     position: relative;
   }
-  section.Email-block div.Email-block-container div.Email-block-block-emailblcok > input{
-    font-size: 1.25rem;
-    border: 0;
-    background: #C4C4C4;
-    position: absolute;
-    top: 0.9375rem;
-    left: 0.625rem;
-  }
-  section.Email-block div.Email-block-container div.Email-block-block-emailblcok > input::placeholder{
-    color: white;
-  }
-  section.Email-block div.Email-block-container div.Email-block-block-emailblcok > button{
-    position: absolute;
-    padding: 0.3125rem;
-    top: 0.8125rem;
-    right: 2.5rem;
-  }
+}
+
+/* sm - Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* md - Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* lg - Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* xl - Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

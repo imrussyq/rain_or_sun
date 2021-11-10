@@ -12,6 +12,7 @@ body {
 section.section1 div.banner {
   margin: 0 auto;
   max-width: 1200px;
+  width: 100%;
   /* height: auto; */
   border: 1px solid #f6f4f4;
   background-color: #f6f4f4;
@@ -248,6 +249,9 @@ section.section7 div.section7-container div.section7-img-block > img {
   max-height: 100%;
 }
 
+/* =========================================================== RWD =========================================================== 
+ */
+
 /* xs - Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   /* section2 */
@@ -274,9 +278,8 @@ section.section7 div.section7-container div.section7-img-block > img {
     font-size: 2.25rem;
     margin-top: 3.125rem;
     margin-bottom: 1rem;
-    border: 1px solid red;
   }
-  section.section2 div.section2-container div.section2-block2 > img{
+  section.section2 div.section2-container div.section2-block2 > img {
     width: 100%;
   }
   section.section2 div.section2-container div.section2-block1 > p {
@@ -291,24 +294,466 @@ section.section7 div.section7-container div.section7-img-block > img {
   section.section2 div.section2-container div.section2-block1 > i {
     color: black;
   }
+
+  /* section3 */
+  section.section3 div.section3-block {
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: wrap;
+    /* justify-content: space-around;
+    align-items: flex-start; */
+    padding: 10px;
+  }
+  section.section3 div.section3-block div.bg1 {
+    background: #000;
+    width: 100%;
+    height: 26rem;
+    color: white;
+    font-size: 2.25rem;
+    position: relative;
+  }
+  section.section3 div.section3-block div.bg2 {
+    background: #000;
+    width: 100%;
+    height: 26rem;
+    color: white;
+    font-size: 2.25rem;
+    position: relative;
+    margin-top: 1rem;
+    position: relative;
+  }
+  section.section3 div.section3-block div.bg1 > a {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    max-width: 100%;
+    height: 100%;
+    /* border: 15px solid green; */
+  }
+  section.section3 div.section3-block div.bg1 > a > img {
+    max-width: 100%;
+    /* border: 1px solid red; */
+
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: 0;
+    left: 0;
+
+    padding: 5rem;
+  }
+  section.section3 div.section3-block div.bg2 > a {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    max-width: 100%;
+    height: 100%;
+    /* border: 15px solid green; */
+  }
+  section.section3 div.section3-block div.bg2 > a > img {
+    max-width: 100%;
+    /* border: 1px solid blue; */
+    width: 100%;
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: 0;
+    left: 0;
+
+    padding: 3rem;
+  }
+  section.section3 div.section3-block div.bg1 > p,
+  section.section3 div.section3-block div.bg2 > p {
+    margin-left: 1.25rem;
+  }
+  section.section3 div.section3-block div.shop-now {
+    margin-left: 1.25rem;
+    margin-top: 13.75rem;
+  }
+  section.section3 div.section3-block div.shop-now > p,
+  section.section3 div.section3-block div.shop-now > a {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+  }
 }
 
 /* sm - Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  ...;
+  /* section2 */
+  section.section2 div.section2-container {
+    /* width: 1200px; */
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    display: block;
+  }
+  section.section2 div.section2-container div.section2-block1 {
+    /* width: 34.375rem;
+    height: 31.25rem; */
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 2.25rem;
+    background: white;
+    text-align: center;
+    margin-top: 6.25rem;
+  }
+  section.section2 div.section2-container div.section2-block2 {
+    /* width: 34.375rem;
+    height: 31.25rem; */
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 2.25rem;
+    margin-top: 3.125rem;
+    text-align: center;
+  }
+  section.section2 div.section2-container div.section2-block1 > p {
+    font-size: 2.25rem;
+    color: #c4c4c4;
+  }
+  section.section2 div.section2-container div.section2-block1 > h1 {
+    font-size: 3rem;
+    color: black;
+    line-height: 0.0625rem;
+  }
+  section.section2 div.section2-container div.section2-block1 > i {
+    color: black;
+  }
+  /* section3 */
+  section.section3 div.section3-block {
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: wrap;
+    /* justify-content: space-around;
+      align-items: flex-start; */
+    padding: 10px;
+  }
+  section.section3 div.section3-block div.bg1 {
+    background: #000;
+    width: 100%;
+    height: 26rem;
+    color: white;
+    font-size: 2.25rem;
+    position: relative;
+  }
+  section.section3 div.section3-block div.bg2 {
+    background: #000;
+    width: 100%;
+    height: 26rem;
+    color: white;
+    font-size: 2.25rem;
+    position: relative;
+    margin-top: 1rem;
+    position: relative;
+  }
+  section.section3 div.section3-block div.bg1 > a {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    max-width: 100%;
+    height: 100%;
+    /* border: 15px solid green; */
+  }
+  section.section3 div.section3-block div.bg1 > a > img {
+    max-width: 100%;
+    /* border: 1px solid red; */
+
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: 0;
+    left: 0;
+
+    padding: 5rem;
+  }
+  section.section3 div.section3-block div.bg2 > a {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    max-width: 100%;
+    height: 100%;
+    /* border: 15px solid green; */
+  }
+  section.section3 div.section3-block div.bg2 > a > img {
+    max-width: 100%;
+    /* border: 1px solid blue; */
+    width: 100%;
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: 0;
+    left: 0;
+
+    padding: 3rem;
+  }
+  section.section3 div.section3-block div.bg1 > p,
+  section.section3 div.section3-block div.bg2 > p {
+    margin-left: 1.25rem;
+  }
+  section.section3 div.section3-block div.shop-now {
+    margin-left: 1.25rem;
+    margin-top: 13.75rem;
+  }
+  section.section3 div.section3-block div.shop-now > p,
+  section.section3 div.section3-block div.shop-now > a {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+  }
 }
 
 /* md - Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  ...;
+  /* section2 */
+  section.section2 div.section2-container {
+    /* width: 1200px; */
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    display: block;
+  }
+  section.section2 div.section2-container div.section2-block1 {
+    /* width: 34.375rem;
+    height: 31.25rem; */
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 2.25rem;
+    background: white;
+    text-align: center;
+    margin-top: 6.25rem;
+  }
+  section.section2 div.section2-container div.section2-block2 {
+    /* width: 34.375rem;
+    height: 31.25rem; */
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 2.25rem;
+    margin-top: 3.125rem;
+    text-align: center;
+  }
+  section.section2 div.section2-container div.section2-block1 > p {
+    font-size: 2.25rem;
+    color: #c4c4c4;
+  }
+  section.section2 div.section2-container div.section2-block1 > h1 {
+    font-size: 3rem;
+    color: black;
+    line-height: 0.0625rem;
+  }
+  section.section2 div.section2-container div.section2-block1 > i {
+    color: black;
+  }
+
+  /* section3 */
+  section.section3 div.section3-block {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: wrap;
+    padding: 10px;
+  }
+  section.section3 div.section3-block div.bg1 {
+    background: #000;
+    width: 100%;
+    height: 26rem;
+    color: white;
+    font-size: 2.25rem;
+    position: relative;
+  }
+  section.section3 div.section3-block div.bg2 {
+    background: #000;
+    width: 100%;
+    height: 26rem;
+    color: white;
+    font-size: 2.25rem;
+    position: relative;
+    margin-top: 1rem;
+    position: relative;
+  }
+  section.section3 div.section3-block div.bg1 > a {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    max-width: 100%;
+    height: 100%;
+    /* border: 15px solid green; */
+  }
+  section.section3 div.section3-block div.bg1 > a > img {
+    max-width: 100%;
+    /* border: 1px solid red; */
+
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: 0;
+    left: 0;
+
+    padding: 10rem;
+  }
+  section.section3 div.section3-block div.bg2 > a {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    max-width: 100%;
+    height: 100%;
+    /* border: 15px solid green; */
+  }
+  section.section3 div.section3-block div.bg2 > a > img {
+    max-width: 100%;
+    /* border: 1px solid blue; */
+    width: 100%;
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: 0;
+    left: 0;
+
+    padding: 10rem;
+  }
+  section.section3 div.section3-block div.bg1 > p,
+  section.section3 div.section3-block div.bg2 > p {
+    margin-left: 1.25rem;
+  }
+  section.section3 div.section3-block div.shop-now {
+    margin-left: 1.25rem;
+    margin-top: 13.75rem;
+  }
+  section.section3 div.section3-block div.shop-now > p,
+  section.section3 div.section3-block div.shop-now > a {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+  }
 }
 
 /* lg - Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  ...;
+  /* section3 */
+  section.section3 div.section3-block {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  section.section3 div.section3-block div.bg1 {
+    background: #000;
+    width: 28.375rem;
+    height: 28.25rem;
+    color: white;
+    font-size: 2.25rem;
+    position: relative;
+  }
+  section.section3 div.section3-block div.bg2 {
+    background: #000;
+    width: 28.375rem;
+    height: 28.25rem;
+    color: white;
+    font-size: 2.25rem;
+    position: relative;
+  }
+  section.section3 div.section3-block div.bg1 > a {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    max-width: 100%;
+    height: 100%;
+    /* border: 15px solid green; */
+  }
+  section.section3 div.section3-block div.bg1 > a > img {
+    max-width: 100%;
+    /* border: 1px solid red; */
+
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: 0;
+    left: 0;
+
+    padding: 5rem;
+  }
+  section.section3 div.section3-block div.bg2 > a {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    max-width: 100%;
+    height: 100%;
+    /* border: 15px solid green; */
+  }
+  section.section3 div.section3-block div.bg2 > a > img {
+    max-width: 100%;
+    /* border: 1px solid blue; */
+    width: 100%;
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: 0;
+    left: 0;
+
+    padding: 3rem;
+  }
+  section.section3 div.section3-block div.bg1 > p,
+  section.section3 div.section3-block div.bg2 > p {
+    margin-left: 1.25rem;
+  }
+  section.section3 div.section3-block div.shop-now {
+    margin-left: 1.25rem;
+    margin-top: 16.75rem;
+  }
+  section.section3 div.section3-block div.shop-now > p,
+  section.section3 div.section3-block div.shop-now > a {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+  }
 }
 
 /* xl - Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  ...;
 }
