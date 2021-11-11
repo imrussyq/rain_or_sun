@@ -1,129 +1,182 @@
 /* nav bar Start*/
 nav.nav {
-    /* border: 3px solid red; */
-    display: inline-block;
-    margin-left: 6.25rem;
-    vertical-align: top;
-    font-size: 1rem;
-  }
-  nav.nav ul.nav_list {
-    /* border: 1px solid gray; */
-    padding: 0;
-    margin: 2.125rem 0;
-  }
-  nav.nav ul.nav_list > li {
-    /* border: 1px solid gray; */
-    list-style: none;
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 0.625rem;
-  }
-  
-  nav.nav ul.nav_list > li > a {
-    /* border: 1px solid blue; */
-    text-decoration: none;
-    display: inline-block;
-    padding: 0.3125rem 0.625rem;
-    color: black;
-  }
-  
-  nav.nav ul.nav_list > li > a:hover {
-    background-color: black;
-    color: white;
-  }
-  
-  /* ======================== 下拉選單 ========================   */
-  nav.nav ul.nav_list > li div.social_block {
-    /* border: 1px solid yellow; */
-    padding: 0.3125rem 0.625rem;
-    position: relative;
-  }
-  
-  nav.nav ul.nav_list > li div.social_block:hover ul.social_link_list {
-    display: block;
-  }
-  
-  nav.nav ul.nav_list > li div.social_block ul.social_link_list {
-    margin: 0;
-    padding: 0;
-    background-color: black;
-  
-    /* 第二步 */
-    display: none;
-    position: absolute;
-    right: 0;
-    top: 1.875rem;
-  }
-  
-  nav.nav ul.nav_list > li div.social_block ul.social_link_list > li {
-    list-style: none;
-    width: 6.25rem;
-  }
-  
-  nav.nav ul.nav_list > li div.social_block ul.social_link_list > li > a {
-    color: white;
-    display: inline-block;
-    text-decoration: none;
-    width: 100%;
-    text-align: center;
-    padding: 0.3125rem 0;
-  }
-  /* nav bar End */
-  
-  /* ========================  header ========================  */
-  header.header {
-    /* border: 1px solid blue; */
-    max-width: 1200px;
-    width: 100%;
-    margin: 0.625rem auto;
-    font-size: 0;
-  
-    /* sticky */
-    /* position: -webkit-sticky;
+  /* border: 3px solid red; */
+  display: inline-block;
+  margin-left: 6.25rem;
+  vertical-align: top;
+  font-size: 1rem;
+}
+nav.nav ul.nav_list {
+  /* border: 1px solid gray; */
+  padding: 0;
+  margin: 2.125rem 0;
+}
+nav.nav ul.nav_list > li {
+  /* border: 1px solid gray; */
+  list-style: none;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 0.625rem;
+}
+
+nav.nav ul.nav_list > li > a {
+  /* border: 1px solid blue; */
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.3125rem 0.625rem;
+  color: black;
+}
+
+nav.nav ul.nav_list > li > a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* ======================== 下拉選單 ========================   */
+nav.nav ul.nav_list > li div.social_block {
+  /* border: 1px solid yellow; */
+  padding: 0.3125rem 0.625rem;
+  position: relative;
+}
+
+nav.nav ul.nav_list > li div.social_block:hover ul.social_link_list {
+  display: block;
+}
+
+nav.nav ul.nav_list > li div.social_block ul.social_link_list {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+
+  /* 第二步 */
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 1.875rem;
+}
+
+nav.nav ul.nav_list > li div.social_block ul.social_link_list > li {
+  list-style: none;
+  width: 6.25rem;
+}
+
+nav.nav ul.nav_list > li div.social_block ul.social_link_list > li > a {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  padding: 0.3125rem 0;
+}
+/* nav bar End */
+
+/* ========================  header ========================  */
+header.header {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 0;
+
+  /* sticky */
+  /* position: -webkit-sticky;
     position: sticky;
     top: 0; */
+}
+
+header.header a img.logo_img {
+  /* border: 3px solid red; */
+  font-size: 6.25rem;
+  width: 6.25rem;
+}
+
+header.header div.icon-block {
+  display: inline-block;
+  float: right;
+  margin-top: 2.1875rem;
+  font-size: 1.5625rem;
+  margin-right: 2.8125rem;
+}
+
+header.header div.icon-block a > i {
+  text-decoration: none;
+  color: black;
+}
+
+div.parent_container {
+  /* border: 1px solid red; */
+  max-width: 1200px;
+  width: 100%;
+  margin: 0.625rem auto;
+  font-size: 0;
+}
+
+div.parent_container aside.aside,
+div.parent_container main.main {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1rem;
+}
+
+div.parent_container aside.aside {
+  /* border: 1px solid gray; */
+  width: 12.5rem;
+  margin-right: 1.25rem;
+}
+div.parent_container main.main {
+  /* border: 1px solid gray; */
+  width: calc(100% - 12.5rem - 1.25rem);
+}
+
+.nav_hanburger{
+  display: none;
+}
+
+/* xs - Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  nav.nav ul.nav_list {
+    display: none;
   }
-  
-  header.header a img.logo_img {
-    /* border: 3px solid red; */
-    font-size: 6.25rem;
-    width: 6.25rem;
+  .nav_hanburger{
+    display: block;
   }
-  
-  header.header div.icon-block {
-    display: inline-block;
-    float: right;
-    margin-top: 2.1875rem;
-    font-size: 1.5625rem;
-    margin-right: 2.8125rem;
+  header.header div.icon-block .icon-one,
+  header.header div.icon-block .icon-two{
+    display: none;
   }
-  
-  header.header div.icon-block a > i {
-    text-decoration: none;
-    color: black;
+}
+
+/* sm - Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  nav.nav ul.nav_list {
+    display: none;
   }
-  
-  div.parent_container {
-    /* border: 1px solid red; */
-    max-width: 1200px;
-    width: 100%;
-    margin: 0.625rem auto;
-    font-size: 0;
+  .nav_hanburger{
+    display: block;
   }
-  
-  div.parent_container aside.aside,
-  div.parent_container main.main {
-    display: inline-block;
-    vertical-align: top;
-    font-size: 1rem;
+  header.header div.icon-block .icon-one,
+  header.header div.icon-block .icon-two{
+    display: none;
   }
-  
-  div.parent_container aside.aside {
-    /* border: 1px solid gray; */
-    width: 12.5rem;
-    margin-right: 1.25rem;
+}
+
+/* md - Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  nav.nav ul.nav_list {
+    display: none;
   }
-  div.parent_container main.main {
-    /* border: 1px solid gray; */
-    width: calc(100% - 12.5rem - 1.25rem);
+  .nav_hanburger{
+    display: block;
   }
+  header.header div.icon-block .icon-one,
+  header.header div.icon-block .icon-two{
+    display: none;
+  }
+}
+
+/* lg - Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* xl - Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

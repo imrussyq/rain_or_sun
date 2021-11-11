@@ -249,6 +249,36 @@ section.section7 div.section7-container div.section7-img-block > img {
   max-height: 100%;
 }
 
+/* slick */
+.slider {
+  width: 1200px;
+  max-width: 100%;
+  margin: 100px auto;
+  padding: 0.3125rem;
+  margin-left: 1.875rem;
+}
+.slick-slide {
+  margin: 0px 10px;
+}
+.slick-slide img {
+  width: 10rem;
+  height: 17rem;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.slick-slide {
+  transition: all ease-in-out 0.3s;
+  opacity: 0.2;
+}
+.slick-active {
+  opacity: 1;
+}
+.slick-current {
+  opacity: 1;
+}
+
 /* =========================================================== RWD =========================================================== 
  */
 
