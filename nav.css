@@ -97,6 +97,7 @@ li a.category {
     max-height: 50px;
     background: #fff;
     margin: 0 auto;
+    margin-bottom: 50px;
   }
 
   .menu li {
@@ -106,5 +107,23 @@ li a.category {
   .menu li a {
     padding: 0 10px;
     margin: 5px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  nav img.logo {
+    /* height: 60px; */
+    padding: 5px 10px;
+    float: right;
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  nav img.logo {
+    /* height: 60px; */
+    padding: 5px 10px;
+    float: right;
+    margin-right: 10px;
   }
 }
