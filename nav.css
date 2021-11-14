@@ -1,0 +1,110 @@
+/* meng ham */
+/* ====================================nav==================================== */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* NavBar */
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+  text-align: center;
+  /* box-shadow: 0px 1px 3px #00000088; */
+}
+
+/* 隱藏 checkbox */
+input {
+  display: none;
+}
+
+/* 漢堡按鈕 */
+label {
+  float: left;
+  padding-left: 30px;
+  margin: 15px;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+label img {
+  width: 30px;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+/* menu*/
+.menu {
+  clear: both;
+  background: #fff;
+}
+
+.menu li {
+  text-align: center;
+}
+
+.menu li a {
+  display: block;
+  line-height: 50px;
+  font-size: 16px;
+  color: #4f392b;
+}
+
+.menu li a:hover {
+  background: black;
+  transition-duration: 0.2s;
+  color: #fff;
+}
+
+/* 下拉選單效果 */
+.menu {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.2s;
+  /* 動畫秒數 */
+}
+
+input:checked ~ .menu {
+  max-height: 300px;
+}
+
+nav img.logo {
+  /* height: 60px; */
+  padding: 5px 10px;
+}
+
+li a.category {
+  background-color: #4f392b;
+  color: #e8e1db;
+}
+
+/* mediaquery */
+@media screen and (min-width: 768px) {
+  label {
+    display: none;
+  }
+
+  .menu {
+    /* float: right; */
+    /* display: inline-block; */
+    display: block;
+    clear: none;
+    max-height: 50px;
+    background: #fff;
+    margin: 0 auto;
+  }
+
+  .menu li {
+    display: inline-block;
+  }
+
+  .menu li a {
+    padding: 0 10px;
+    margin: 5px;
+  }
+}
