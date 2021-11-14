@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <!-- slick -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+
+    <!-- my own -->
     <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="footer.css" />
     <link rel="stylesheet" href="email.css" />
@@ -22,7 +30,7 @@
       <a href="./index.html"><img src="./img/carson-realty.png" alt="" class="logo_img" /></a>
 
       <nav class="nav">
-        <ul class="nav_list">
+        <ul class="nav_list" id="myLinks">
           <li>
             <a href="./index.html">Home</a>
           </li>
@@ -45,6 +53,30 @@
             <a href="./contact.html">Contact</a>
           </li>
 
+      <!-- <nav class="nav">
+        <ul class="nav_list">
+          <li>
+            <a href="./index.html">Home</a>
+          </li>
+          <li>
+            <a style="background-color: black; color: white" href="./umbrella.html">Umbrella</a>
+          </li>
+          <li>
+            <a href="./sunglass.html">Sunglass</a>
+          </li>
+          <li>
+            <a href="./shop.html">Shop</a>
+          </li>
+          <li>
+            <a href="./location.html">Location</a>
+          </li>
+          <li>
+            <a href="./aboutus.html">AboutUS</a>
+          </li>
+          <li>
+            <a href="./contact.html">Contact</a>
+          </li> -->
+
           <!-- 下拉選單 -->
           <!-- <li>
                   <div class="social_block">
@@ -61,10 +93,12 @@
                 </li> -->
         </ul>
       </nav>
-
       <div class="icon-block">
-        <a href="#"><i class="fas fa-search"></i></a>
-        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        <a href="#"><i class="fas fa-search icon-one"></i></a>
+        <a href="#"><i class="fas fa-shopping-cart icon-two"></i></a>
+        <a href="javascript:void(0);" class="nav_hanburger" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
     </header>
 
@@ -87,12 +121,20 @@
     <section class="section2">
       <div class="section2-container">
         <h1>Pick a color you love</h1>
-        <img src="./img/umbrellapng.png" alt="Placeholder Image" />
+        <section class="variable slider center">
+          <img src="./img/umbrella-gray.png?text1" alt="" />
+          <img src="./img/umbrella-blue.png?text2" alt="" />
+          <img src="./img/umbrella-purple.png?text3" alt="" />
+          <img src="./img/umbrella-red.png?text4" alt="" />
+        </section>
+
+        <!-- <img src="./img/umbrellapng.png" alt="Placeholder Image" />
         <div class="section2-circle">
           <i class="fas far fas fa-circle"></i>
           <i class="far fa-circle"></i>
           <i class="far fa-circle"></i>
-          <i class="far fa-circle"></i>
+          <i class="far fa-circle"></i> -->
+
         </div>
       </div>
     </section>
@@ -158,5 +200,45 @@
         <p style="color: gray; font-size: 14px">*若有侵權疑慮，您可以私訊TibaMe前端設計工程師養成班，後續會由專人協助處理。</p>
       </div>
     </footer>
+
+    <script>
+      // js slick
+      $(document).on("ready", function () {
+        $(".variable").slick({
+          dots: true,
+          infinite: true,
+          speed: 300,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 1500,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                infinite: true,
+                dots: true,
+              },
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+          ],
+        });
+      });
+    </script>
   </body>
 </html>

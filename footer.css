@@ -53,6 +53,15 @@ footer.footer div.footer-block3 {
 
 /* xs - Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  footer.footer {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background: black;
+    height: auto;
+    margin-top: 6.25rem;
+  }
+
   footer.footer div.footer-block2 > p {
     color: #999999;
     font-size: 1.5rem;

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      /* ====================================nav==================================== */
+      ul {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      /* NavBar */
+      nav {
+        max-width: 1200px;
+        margin: 0 auto;
+        background: #fff;
+        /* box-shadow: 0px 1px 3px #00000088; */
+      }
+
+      /* 隱藏 checkbox */
+      input {
+        display: none;
+      }
+
+      /* 漢堡按鈕 */
+      label {
+        float: right;
+        padding-right: 30px;
+        line-height: 50px;
+        cursor: pointer;
+      }
+
+      label img {
+        width: 30px;
+        vertical-align: middle;
+        margin-top: 10px;
+      }
+
+      /* menu*/
+      .menu {
+        clear: both;
+        background: #fff;
+      }
+
+      .menu li {
+        text-align: center;
+      }
+
+      .menu li a {
+        display: block;
+        line-height: 50px;
+        font-size: 16px;
+        color: #4f392b;
+      }
+
+      .menu li a:hover {
+        background: black;
+        transition-duration: 0.2s;
+        color: #fff;
+      }
+
+      /* 下拉選單效果 */
+      .menu {
+        max-height: 0;
+        overflow: hidden;
+        transition: 0.2s;
+        /* 動畫秒數 */
+      }
+
+      input:checked ~ .menu {
+        max-height: 300px;
+      }
+
+      nav img.logo {
+        /* height: 60px; */
+        padding: 5px 10px;
+      }
+
+      li a.category {
+        background-color: #4f392b;
+        color: #e8e1db;
+      }
+
+      /* mediaquery */
+      @media screen and (min-width: 768px) {
+        label {
+          display: none;
+        }
+
+        .menu {
+          float: right;
+          clear: none;
+          max-height: 50px;
+          background: #fff;
+          margin: 0;
+        }
+
+        .menu li {
+          display: inline-block;
+        }
+
+        .menu li a {
+          padding: 0 10px;
+          margin: 5px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./index.html"><img src="../img/carson-realty.png" height="60" class="logo" /></a>
+        <label for="switch"><img src="https://static.thenounproject.com/png/547171-200.png" /></label>
+        <input type="checkbox" id="switch" />
+        <ul class="menu">
+          <li><a href="./umbrella.html">Umbrella</a></li>
+          <li><a href="./sunglass.html">Sunglass</a></li>
+          <li><a href="./shop.html">Shop</a></li>
+          <li><a href="./location.html">Location</a></li>
+          <li><a href="./aboutus.html">AboutUS</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>
