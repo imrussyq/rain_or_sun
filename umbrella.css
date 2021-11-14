@@ -123,7 +123,7 @@ section.section4 {
   }
   section.section1 div.section1-container div.section1-block-left > h1 {
     color: black;
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: block;
     text-align: center;
   }
@@ -133,7 +133,7 @@ section.section4 {
     color: white;
     /* width: 9.375rem; */
     width: 50%;
-    font-size: 2.25rem;
+    font-size: 1.5rem;
     padding: 0.5rem;
     /* position: absolute; */
     /* top: 300%;
@@ -145,7 +145,10 @@ section.section4 {
     /* vertical-align: top; */
   }
   section.section1 div.section1-container div.section1-block-right > img {
-    width: 100%;
+    margin-top: 80px;
+    /* width: 100%; */
+    width: 80%;
+    margin-left: 40px;
     transform: rotate(15deg);
   }
 
@@ -185,12 +188,25 @@ section.section4 {
     height: 30rem;
     margin-bottom: 100px;
   }
+  section.section1 div.section1-container div.section1-block-right > img {
+    width: 100%;
+    transform: rotate(15deg);
+  }
+  
   section.section1 div.section1-container div.section1-block-left > h1 {
     color: black;
-    font-size: 2rem;
+    font-size: 1.3rem;
     display: block;
-    text-align: center;
-    border: 1px solid red;
+    text-align: left;
+  }
+  section.section1 div.section1-container div.section1-block-left > button {
+    border: 0;
+    background: #000;
+    color: white;
+    /* width: 9.375rem; */
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 0.5rem;
   }
 }
 
@@ -206,6 +222,13 @@ section.section4 {
     margin-bottom: 100px;
   }
 
+  section.section1 div.section1-container div.section1-block-right > img {
+    width: 100%;
+    padding: 50px;
+    margin-top: -100px;
+    transform: rotate(15deg);
+  }
+
   section.section1 div.section1-container div.section1-block-left > button {
     border: 0;
     background: #000;
@@ -214,7 +237,6 @@ section.section4 {
     width: 50%;
     font-size: 1rem;
     padding: 0.5rem;
-    border: 1px solid red;
     /* position: absolute; */
     /* top: 300%;
     left: 60%; */
@@ -223,8 +245,7 @@ section.section4 {
     color: black;
     font-size: 2rem;
     display: block;
-    text-align: center;
-    border: 1px solid red;
+    text-align: left;
   }
 }
 
@@ -234,7 +255,7 @@ section.section4 {
     margin: 0 auto;
     /* width: 1200px; */
     width: 100%;
-    max-width: 960px;
+    /* max-width: 960px; */
     /* background: gray; */
     height: 30rem;
     margin-bottom: 100px;
@@ -248,7 +269,6 @@ section.section4 {
     width: 50%;
     font-size: 1.3rem;
     padding: 0.5rem;
-    border: 1px solid red;
     /* position: absolute; */
     /* top: 300%;
     left: 60%; */
@@ -258,8 +278,7 @@ section.section4 {
     color: black;
     font-size: 2rem;
     display: block;
-    text-align: center;
-    border: 1px solid red;
+    text-align: left;
   }
 }
 
