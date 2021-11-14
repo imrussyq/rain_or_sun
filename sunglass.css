@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
 section.section1 {
   margin: 0 auto;
   width: 1200px;
@@ -7,7 +15,7 @@ section.section1 {
 }
 section.section1 div.section1-container {
   background: white;
-  height: 600px;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
 section.section1 {
   margin: 0 auto;
   /* width: 1200px; */
@@ -156,7 +164,7 @@ section.section4 {
     margin-top: 50px;
   }
 
-  section.section3 > img{
+  section.section3 > img {
     margin: 0;
     width: 100%;
     max-width: 100%;
@@ -177,6 +185,13 @@ section.section4 {
     height: 30rem;
     margin-bottom: 100px;
   }
+  section.section1 div.section1-container div.section1-block-left > h1 {
+    color: black;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    border: 1px solid red;
+  }
 }
 
 /* md - Medium devices (tablets, 768px and up) */
@@ -189,6 +204,27 @@ section.section4 {
     /* background: gray; */
     height: 30rem;
     margin-bottom: 100px;
+  }
+
+  section.section1 div.section1-container div.section1-block-left > button {
+    border: 0;
+    background: #000;
+    color: white;
+    /* width: 9.375rem; */
+    width: 50%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 1px solid red;
+    /* position: absolute; */
+    /* top: 300%;
+    left: 60%; */
+  }
+  section.section1 div.section1-container div.section1-block-left > h1 {
+    color: black;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    border: 1px solid red;
   }
 }
 
@@ -203,8 +239,31 @@ section.section4 {
     height: 30rem;
     margin-bottom: 100px;
   }
+
+  section.section1 div.section1-container div.section1-block-left > button {
+    border: 0;
+    background: #000;
+    color: white;
+    /* width: 9.375rem; */
+    width: 50%;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    border: 1px solid red;
+    /* position: absolute; */
+    /* top: 300%;
+    left: 60%; */
+  }
+
+  section.section1 div.section1-container div.section1-block-left > h1 {
+    color: black;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    border: 1px solid red;
+  }
 }
 
 /* xl - Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  
 }

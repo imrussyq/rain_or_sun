@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
+
 section.section1 div.section1-container {
   margin: 0 auto;
   width: 1200px;
