@@ -121,7 +121,7 @@ section.section2 div.section2-container div.section2-block1 {
   height: auto;
   align-self: center;
   color: white;
-  font-size: 2.25rem;
+  font-size: 1.5rem;
   background: white;
   text-align: center;
   /* margin-top: 6.25rem; */
@@ -331,7 +331,7 @@ section.section7 div.section7-container div.section7-img-block > img {
     width: 34.375rem;
     height: auto;
     color: white;
-    font-size: 2.25rem;
+    font-size: 1rem;
     background: white;
     text-align: center;
     margin-top: 0.25rem;
@@ -455,6 +455,17 @@ section.section7 div.section7-container div.section7-img-block > img {
     text-decoration: none;
   }
 
+  section.section4 div.section4-container{
+    margin: 0 auto;
+    /* max-width: 100%; */
+    width: 100%;
+    padding: 10px;
+  }
+  section.section4 div.section4-container > h1 {
+    margin-top: 3.125rem;
+    font-size: 1.8rem;
+  }
+
   /* slick */
   .slider {
     width: 83%;
@@ -542,7 +553,7 @@ section.section7 div.section7-container div.section7-img-block > img {
     width: 100%;
     height: 100%;
     color: white;
-    font-size: 2.25rem;
+    font-size: 1rem;
     background: white;
     text-align: center;
     margin-top: 0.25rem;
@@ -585,7 +596,7 @@ section.section7 div.section7-container div.section7-img-block > img {
     flex-flow: wrap;
     /* justify-content: space-around;
       align-items: flex-start; */
-    padding: 10px;
+    /* padding: 10px; */
   }
   section.section3 div.section3-block div.bg1 {
     background: #000;
@@ -711,10 +722,22 @@ section.section7 div.section7-container div.section7-img-block > img {
     opacity: 1;
   }
 
-  section.section4 div.section4-container {
+  /* section.section4 div.section4-container {
     margin: 0 auto;
     max-width: 710px;
     width: 100%;
+  } */
+
+  section.section4 div.section4-container{
+    margin: 0 auto;
+    max-width: 540px;
+    width: 100%;
+    /* width: 100%; */
+  }
+  section.section4 div.section4-container > h1 {
+    margin-top: 3.125rem;
+    font-size: 1.8rem;
+    /* margin-left: 1.875rem; */
   }
 
   section.section7 div.section7-container {
@@ -764,7 +787,7 @@ section.section7 div.section7-container div.section7-img-block > img {
     height: auto;
     align-self: center;
     color: white;
-    font-size: 2.25rem;
+    font-size: 1.2rem;
     background: white;
     text-align: center;
     /* margin-top: 6.25rem; */
@@ -802,7 +825,7 @@ section.section7 div.section7-container div.section7-img-block > img {
     margin: 0 auto;
     display: flex;
     flex-flow: wrap;
-    padding: 10px;
+    /* padding: 10px; */
   }
   section.section3 div.section3-block div.bg1 {
     background: #000;
@@ -884,6 +907,18 @@ section.section7 div.section7-container div.section7-img-block > img {
     text-align: center;
     color: white;
     text-decoration: none;
+  }
+
+  section.section4 div.section4-container{
+    margin: 0 auto;
+    max-width: 720px;
+    width: 100%;
+    /* width: 100%; */
+  }
+  section.section4 div.section4-container > h1 {
+    margin-top: 3.125rem;
+    font-size: 2rem;
+    /* margin-left: 1.875rem; */
   }
 
   /* slick */
@@ -973,7 +1008,7 @@ section.section7 div.section7-container div.section7-img-block > img {
     height: auto;
     align-self: center;
     color: white;
-    font-size: 2.25rem;
+    font-size: 1.5rem;
     background: white;
     text-align: center;
     /* margin-top: 6.25rem; */
@@ -1008,7 +1043,8 @@ section.section7 div.section7-container div.section7-img-block > img {
     max-width: 960px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: space-between;
     align-items: flex-start;
   }
   section.section3 div.section3-block div.bg1 {
@@ -1089,6 +1125,19 @@ section.section7 div.section7-container div.section7-img-block > img {
     text-align: center;
     color: white;
     text-decoration: none;
+  }
+  
+
+  section.section4 div.section4-container{
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+    /* width: 100%; */
+  }
+  section.section4 div.section4-container > h1 {
+    margin-top: 3.125rem;
+    font-size: 2.3rem;
+    /* margin-left: 1.875rem; */
   }
 
   /* slick */
