@@ -23,6 +23,10 @@ section.Email-block div.Email-block-container div.Email-block-block-emailblcok {
   margin: 0 auto;
   position: relative;
 }
+input {
+  display: block;
+}
+
 section.Email-block div.Email-block-container div.Email-block-block-emailblcok > input {
   font-size: 1.25rem;
   border: 0;
