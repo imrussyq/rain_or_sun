@@ -33,7 +33,7 @@ section.Email-block div.Email-block-container div.Email-block-block-emailblcok >
   background: #c4c4c4;
   position: absolute;
   top: 0.9375rem;
-  left: 0.625rem;
+  left: 0.625rem; 
 }
 section.Email-block div.Email-block-container div.Email-block-block-emailblcok > input::placeholder {
   color: white;
