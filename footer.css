@@ -53,23 +53,98 @@ footer.footer div.footer-block3 {
 
 /* xs - Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  /* ======================== footer ========================  */
   footer.footer {
     max-width: 100%;
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
     background: black;
     height: auto;
-    margin-top: 6.25rem;
+    margin-top: 3.25rem;
   }
-
+  footer.footer div.footer-block1 div.footer-block1-samllblock1 > p,
+  footer.footer div.footer-block1 div.footer-block1-samllblock2 > p,
+  footer.footer div.footer-block1 div.footer-block1-samllblock3 > p,
+  footer.footer div.footer-block1 div.footer-block1-samllblock4 > p {
+    color: #999999;
+    font-size: 1.8rem;
+  }
+  footer.footer div.footer-block1 div.footer-block1-samllblock1 > a,
+  footer.footer div.footer-block1 div.footer-block1-samllblock2 > a,
+  footer.footer div.footer-block1 div.footer-block1-samllblock3 > a,
+  footer.footer div.footer-block1 div.footer-block1-samllblock4 > a {
+    color: white;
+    /* font-size: 1.125rem; */
+    font-size: 1.5rem;
+    text-decoration: none;
+    line-height: 0.3125rem;
+  }
+  footer.footer div.footer-block1 {
+    text-align: center;
+  }
+  footer.footer div.footer-block1 div.footer-block1-samllblock1,
+  footer.footer div.footer-block1 div.footer-block1-samllblock2,
+  footer.footer div.footer-block1 div.footer-block1-samllblock3,
+  footer.footer div.footer-block1 div.footer-block1-samllblock4 {
+    display: inline-block;
+    margin-left: 0rem;
+    padding: 30px;
+    width: 200px;
+    font-size: 5rem;
+    text-align: center;
+    margin: 0;
+    line-height: auto;
+    border: 1px solid red;
+  }
+  footer.footer div.footer-block2 {
+    margin-left: 5rem;
+    color: white;
+    font-size: 2.25rem;
+    line-height: 0.0625rem;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+  }
   footer.footer div.footer-block2 > p {
     color: #999999;
     font-size: 1.5rem;
+  }
+  footer.footer div.footer-block3 {
+    margin-left: 5rem;
+    margin-top: 1.25rem;
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 3.125rem;
+    margin: 20px 80px 0px 80px;
   }
 }
 
 /* sm - Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  footer.footer div.footer-block1{
+    text-align: center;
+  }
+  footer.footer div.footer-block1 div.footer-block1-samllblock1,
+  footer.footer div.footer-block1 div.footer-block1-samllblock2,
+  footer.footer div.footer-block1 div.footer-block1-samllblock3,
+  footer.footer div.footer-block1 div.footer-block1-samllblock4 {
+    display: inline-block;
+    margin-left: 0rem;
+    padding: 30px;
+    width: 300px;
+    font-size: 5rem;
+    text-align: center;
+    margin: 0;
+    line-height: auto;
+    border: 1px solid red;
+  }
+  footer.footer div.footer-block3 {
+    margin-left: 5rem;
+    margin-top: 1.25rem;
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 3.125rem;
+    margin: 20px 80px 0px 80px;
+  }
 }
 
 /* md - Medium devices (tablets, 768px and up) */
