@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="footer.css" />
     <link rel="stylesheet" href="email.css" />
     <link rel="stylesheet" href="location.css" />
-    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="nav.css" />
     <!-- font awesome -->
     <link
       rel="stylesheet"
@@ -19,11 +19,10 @@
     />
   </head>
   <body>
-
     <header>
       <nav>
         <a href="./index.html"><img src="./img/carson-realty.png" height="100" class="logo" /></a>
-        <label for="switch"><img src="https://static.thenounproject.com/png/547171-200.png"/></label>
+        <label for="switch"><img src="https://static.thenounproject.com/png/547171-200.png" /></label>
         <input type="checkbox" id="switch" />
         <ul class="menu">
           <li><a href="./index.html">Home</a></li>
@@ -33,12 +32,15 @@
           <li><a href="./location.html">Location</a></li>
           <li><a href="./aboutus.html">AboutUS</a></li>
           <li><a href="./contact.html">Contact</a></li>
-          <li><a href="#"><i class="fas fa-search"></i></a></li>
-          <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+          <li>
+            <a href="#"><i class="fas fa-search"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          </li>
         </ul>
       </nav>
     </header>
-
 
     <!-- <header class="header">
       <a href="./index.html"><img src="./img/carson-realty.png" alt="" class="logo_img" /></a>
@@ -87,22 +89,38 @@
           loading="lazy"
         ></iframe>
         <div class="section1-icon-block">
-          <p class="section1-icon-block-p">
-            <i class="fas fa-map-marker-alt"></i>
-            GOOGLE INTERNATIONAL LLC TAIWAN BRANCH (U.S.A.)
-          </p>
-          <p class="section1-icon-block-p">
-            <i class="fas fa-phone-square-alt"></i>
-            +886-9111999222
-          </p>
-          <p class="section1-icon-block-p">
-            <i class="fas fa-mail-bulk"></i>
-            google@gmail.com
-          </p>
-          <p class="section1-icon-block-p">
-            <i class="fas fa-globe-americas"></i>
-            www.google.com
-          </p>
+          <div class="sm-block">
+            <p class="section1-icon-block-p">
+              <i class="fas fa-map-marker-alt"></i>
+              <br />
+              GOOGLE INTERNATIONAL LLC (U.S.A.)
+            </p>
+          </div>
+
+          <div class="sm-block">
+            <p class="section1-icon-block-p">
+              <i class="fas fa-phone-square-alt"></i>
+              <br />
+              +886-9111999222
+            </p>
+          </div>
+
+          <div class="sm-block">
+            <p class="section1-icon-block-p">
+              <i class="fas fa-mail-bulk"></i>
+              <br />
+              google@gmail.com
+            </p>
+          </div>
+
+          <div class="sm-block">
+            <p class="section1-icon-block-p">
+              <i class="fas fa-globe-americas"></i>
+              <br />
+              www.google.com
+            </p>
+          </div>
+          
         </div>
       </div>
     </section>
@@ -117,7 +135,7 @@
           </h1>
         </div>
         <div class="Email-block-block-emailblcok">
-          <input style="display: block;" type="text" placeholder="Enter your email" />
+          <input style="display: block" type="text" placeholder="Enter your email" />
           <button type="button">Subscribe</button>
         </div>
       </div>

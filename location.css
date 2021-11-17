@@ -1,37 +1,42 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
 }
-
 section.section1 div.section1-container {
   margin: 0 auto;
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
 }
-
-
-
 /* 要解決icon文字對齊問題 */
 section.section1 div.section1-container div.section1-icon-block {
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  padding: 50px;
+}
+
+.sm-block {
+  border: 1px solid red;
+  padding: 10px;
 }
 
 section.section1 div.section1-container div.section1-icon-block > p {
-    /* font-size: 30px; */
+  font-size: 1.2rem;
 }
-
-section.section1 div.section1-container div.section1-icon-block-p{
-    width: 20px;
-    height: 20px;
-    display: inline-block;
+section.section1 div.section1-container div.section1-icon-block-p {
+  width: 1.25rem;
+  height: 1.25rem;
+  /* display: inline-block; */
 }
-
-
 section.section1 div.section1-container div.section1-icon-block p > i {
-    /* vertical-align: middle; */
-    
+  font-size: 3.75rem;
+  /* vertical-align: middle; */
+
   /* font-size: 30px;
   width: 30px;
   height: 30px;
@@ -43,3 +48,27 @@ section.section1 div.section1-container div.section1-icon-block p > i {
   /* line-height: 5px; */
 }
 
+/* xs - Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  ...;
+}
+
+/* sm - Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  ...;
+}
+
+/* md - Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  ...;
+}
+
+/* lg - Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  ...;
+}
+
+/* xl - Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  ...;
+}

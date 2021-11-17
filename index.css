@@ -455,7 +455,7 @@ section.section7 div.section7-container div.section7-img-block > img {
     text-decoration: none;
   }
 
-  section.section4 div.section4-container{
+  section.section4 div.section4-container {
     margin: 0 auto;
     /* max-width: 100%; */
     width: 100%;
@@ -728,7 +728,7 @@ section.section7 div.section7-container div.section7-img-block > img {
     width: 100%;
   } */
 
-  section.section4 div.section4-container{
+  section.section4 div.section4-container {
     margin: 0 auto;
     max-width: 540px;
     width: 100%;
@@ -909,7 +909,7 @@ section.section7 div.section7-container div.section7-img-block > img {
     text-decoration: none;
   }
 
-  section.section4 div.section4-container{
+  section.section4 div.section4-container {
     margin: 0 auto;
     max-width: 720px;
     width: 100%;
@@ -1126,9 +1126,8 @@ section.section7 div.section7-container div.section7-img-block > img {
     color: white;
     text-decoration: none;
   }
-  
 
-  section.section4 div.section4-container{
+  section.section4 div.section4-container {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
@@ -1184,4 +1183,23 @@ section.section7 div.section7-container div.section7-img-block > img {
 
 /* xl - Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+}
+
+
+/* dark mode */
+
+.darkmode--activated section.section3 div.section3-block div.bg1,
+.darkmode--activated section.section3 div.section3-block div.bg2{
+  background: white;
+}
+.darkmode--activated section.section3 div.section3-block div.bg1 > p,
+.darkmode--activated section.section3 div.section3-block div.bg2 > p{
+  color: black;
+}
+.darkmode--activated section.section3 div.section3-block div.shop-now > p,
+.darkmode--activated section.section3 div.section3-block div.shop-now > a {
+  color: black;
+}
+.darkmode--activated div.section4-block1 p{
+  color: white;
 }

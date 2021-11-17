@@ -127,3 +127,9 @@ li a.category {
     margin-right: 10px;
   }
 }
+
+
+/* dark mode */
+.darkmode--activated nav img.logo{
+  filter: invert(1);
+}
