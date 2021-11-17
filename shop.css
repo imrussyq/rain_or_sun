@@ -33,7 +33,7 @@ section.section2 div.section2-container {
   width: 100%;
   display: flex;
   align-items: flex-start;
-  border: 3px solid blue;
+  /* border: 3px solid blue; */
 }
 
 section.section2 > h1 {
@@ -45,7 +45,6 @@ section.section2 > h1 {
 }
 section.section2 div.section2-container div.section2-block-left div.section2-button-block {
   margin-left: 3.125rem;
-  border: 3px solid red;
 }
 
 section.section2 div.section2-container div.section2-block-left div.section2-button-block > button {
@@ -53,7 +52,9 @@ section.section2 div.section2-container div.section2-block-left div.section2-but
   color: white;
   background: #000;
   padding: 6.25rem;
-  width: 18.75rem;
+  width: 100%;
+  max-width: 100%;
+  /* width: 18.75rem; */
   display: block;
   margin: 0.625rem;
   cursor: pointer;
@@ -63,8 +64,12 @@ section.section2 div.section2-container div.section2-block-right {
   margin-left: 5rem;
 }
 section.section2 div.section2-container div.section2-block-right > img {
-  margin: 0.625rem;
-  border: 3px solid gray;
+  margin: 0;
+  border: 8px solid gainsboro;
+  max-width: 1200px;
+  width: 100%;
+  height: auto;
+  padding: 100px;
 }
 
 /* xs - Extra small devices (portrait phones, less than 576px) */
@@ -98,7 +103,7 @@ section.section2 div.section2-container div.section2-block-right > img {
     flex-direction: column;
     align-items: center;
     border: 0;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     text-align: center;
   }
 
@@ -114,6 +119,7 @@ section.section2 div.section2-container div.section2-block-right > img {
     border: 0;
     display: flex;
     width: 100%;
+    max-width: 300px;
     justify-content: center;
     text-align: center;
   }
@@ -128,7 +134,7 @@ section.section2 div.section2-container div.section2-block-right > img {
     display: block;
     margin: 0.625rem;
     cursor: pointer;
-    border: 3px solid red;
+    /* border: 3px solid red; */
   }
 
   section.section2 div.section2-container div.section2-block-right {
@@ -139,7 +145,10 @@ section.section2 div.section2-container div.section2-block-right > img {
     justify-content: center; */
   }
   section.section2 div.section2-container div.section2-block-right > img {
-    margin: 0.625rem;
+    /* margin: 0.625rem; */
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
     border: 3px solid gray;
   }
 }
@@ -175,7 +184,7 @@ section.section2 div.section2-container div.section2-block-right > img {
     flex-direction: column;
     align-items: center;
     border: 0;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     text-align: center;
   }
 
@@ -205,7 +214,7 @@ section.section2 div.section2-container div.section2-block-right > img {
     display: block;
     margin: 0.625rem;
     cursor: pointer;
-    border: 3px solid red;
+    /* border: 3px solid red; */
   }
 
   section.section2 div.section2-container div.section2-block-right {
