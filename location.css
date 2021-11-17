@@ -12,22 +12,24 @@ section.section1 div.section1-container {
 /* 要解決icon文字對齊問題 */
 section.section1 div.section1-container div.section1-icon-block {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
-  /* flex-direction: column; */
   padding: 50px;
 }
 
 .sm-block {
-  border: 1px solid red;
   padding: 10px;
+  width: 25%;
 }
-
+section.section1 div.section1-container > h1{
+  margin: 10px;
+}
 section.section1 div.section1-container div.section1-icon-block > p {
   font-size: 1.2rem;
 }
+
 section.section1 div.section1-container div.section1-icon-block-p {
   width: 1.25rem;
   height: 1.25rem;
@@ -50,25 +52,62 @@ section.section1 div.section1-container div.section1-icon-block p > i {
 
 /* xs - Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  ...;
+  section.section1 div.section1-container div.section1-icon-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    border: 3px solid red;
+  }
+  
+  .sm-block {
+    padding: 10px;
+    width: 100%;
+  }
 }
 
 /* sm - Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  ...;
+  section.section1 div.section1-container div.section1-icon-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    border: 3px solid red;
+  }
+  
+  .sm-block {
+    padding: 10px;
+    width: 50%;
+  }
 }
 
 /* md - Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  ...;
+  section.section1 div.section1-container div.section1-icon-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    border: 3px solid red;
+  }
+  
+  .sm-block {
+    padding: 10px;
+    width: 50%;
+  }
 }
 
 /* lg - Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  ...;
 }
 
 /* xl - Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  ...;
 }
