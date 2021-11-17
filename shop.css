@@ -69,7 +69,8 @@ section.section2 div.section2-container div.section2-block-right > img {
   max-width: 1200px;
   width: 100%;
   height: auto;
-  padding: 100px;
+  /* padding: 100px; */
+  padding: 10%;
 }
 
 /* xs - Extra small devices (portrait phones, less than 576px) */
@@ -150,6 +151,7 @@ section.section2 div.section2-container div.section2-block-right > img {
     width: 100%;
     max-width: 100%;
     border: 3px solid gray;
+    /* padding: 30px; */
   }
 }
 
@@ -227,6 +229,7 @@ section.section2 div.section2-container div.section2-block-right > img {
   section.section2 div.section2-container div.section2-block-right > img {
     margin: 0.625rem;
     border: 3px solid gray;
+    /* padding: 20px; */
   }
 }
 

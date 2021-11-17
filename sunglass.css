@@ -64,6 +64,7 @@ section.section2 {
 section.section2 div.section2-container {
   text-align: left;
   margin-bottom: 50px;
+  border: 1px solid red;
 }
 
 section.section2 div.section2-container > img {
