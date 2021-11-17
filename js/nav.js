@@ -11,6 +11,7 @@ let dom = document.getElementsByClassName("menu")[0];
 let dom_li_tag = dom.getElementsByTagName("li");
 let dom_li_a_tag = dom.getElementsByTagName("a");
 let a_tag_length = dom_li_a_tag.length - 2;
+console.log(location.href.split("/"));
 for (let i = 0; i < a_tag_length; i++) {
   switch (location.href.split("/")[4]) {
     case "index.html":
