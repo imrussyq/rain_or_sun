@@ -12,7 +12,7 @@ let dom_li_tag = dom.getElementsByTagName("li");
 let dom_li_a_tag = dom.getElementsByTagName("a");
 let a_tag_length = dom_li_a_tag.length - 2;
 for (let i = 0; i < a_tag_length; i++) {
-  switch (location.href.split("/")[3]) {
+  switch (location.href.split("/")[4]) {
     case "index.html":
       dom_li_a_tag[0].style.backgroundColor = "black";
       dom_li_a_tag[0].style.color = "white";
